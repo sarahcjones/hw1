@@ -18,11 +18,11 @@ int main(int argc, char* argv[])
   Node* prev = NULL;
   Node* in = NULL;
 	Node * current; 
-  for (int i = 0; i < 8; i++)
+  /*
   {
     current = new Node(28-i, prev);
     prev = current;
-  }
+  }*/
 	in = current;
 
   Node* odds = NULL;
@@ -33,7 +33,7 @@ int main(int argc, char* argv[])
   Node* head = odds;
 	Node* previous;
 
-	while(head != NULL)
+	/*(head != NULL)
 	{
 		std::cout << head -> value << std::endl;
 		previous = head;
@@ -43,11 +43,11 @@ int main(int argc, char* argv[])
 	}
 	
   head = evens;
-	while(head != NULL)
+	(head != NULL)
 	{
 		previous = head;
 		head = head -> next;
 		delete previous;
-	}
+	}*/
 
 }
